@@ -43,7 +43,7 @@ $(document).ready(function () {
 			q: "Who is the evil villain in the Bond story Live and Let Die?",
 			a1: "Max Zorin",
 			a2: "General Gogol",
-			a3: "Mr.Big",
+			a3: "Mr. Big",
 			a4: "Karl Stromberg",
 			correctAnswer: "Mr. Big"
 		},

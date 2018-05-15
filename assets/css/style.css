@@ -1,5 +1,5 @@
 body{
-	background: url(../images/banner-background.png) no-repeat center center fixed;   
+	background: url(../images/Casino_Royale.png) no-repeat center center fixed;   
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -12,7 +12,7 @@ body{
     font-size: 1em;
     font-family: 'Julius Sans One', "Times New Roman", serif;
     margin-top: 1%;
-    
+    color: lawngreen;
 }
 
 #question{
@@ -30,6 +30,7 @@ button {
     outline: none;
     width: 50%;
     border-radius: 8px;
+    color: #e5e160;
 }
 
 h1{
@@ -40,7 +41,13 @@ h1{
 }
 
 @media screen and (max-width: 767px){
-
-
-
+	#time-left{
+		line-height: 1.5em;
+	}
+	#question{
+		font-size: 1.5em;
+	}
+	#a1, #a2, #a3, #a4, body{
+		vertical-align: center;
+	}
 }

@@ -1,0 +1,46 @@
+body{
+	background: url(../images/banner-background.png) no-repeat center center fixed;   
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #e5e160;
+}
+
+#question, #time-left, #a1, #a2, #a3, #a4{
+    margin: 0 25% 0 25%;
+    font-size: 1em;
+    font-family: 'Julius Sans One', "Times New Roman", serif;
+    margin-top: 1%;
+    
+}
+
+#question{
+	border-top: solid 1px #e5e160;
+    padding-top: 2%;
+	margin-bottom: 3%;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    width: 50%;
+    border-radius: 8px;
+}
+
+h1{
+	font-family: 'Henny Penny', "Times New Roman", serif;
+	margin-bottom: 0px;
+	padding-top: 2%;
+	font-size: 4.5em;
+}
+
+@media screen and (max-width: 767px){
+
+
+
+}

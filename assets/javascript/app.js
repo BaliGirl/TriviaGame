@@ -108,7 +108,9 @@ $(document).ready(function () {
 			$("#a2").html(questions[queuePos].correctAnswer);
 			$("#a3").empty();
 			$("#a4").empty();
+			$("#a3").append($('<img src="assets/images/JBond_Correct.gif">'));
 			correct++;
+			
 		}
 		else if ($(this).text() != questions[queuePos].correctAnswer) {
 			$("#question").html("Incorrect!");
@@ -117,6 +119,7 @@ $(document).ready(function () {
 			$("#a3").empty();
 			$("#a4").empty();
 			incorrect++;
+			$("#a3").append($('<img src="assets/images/JBond_Incorrect.gif">'));
 		}
 
 		queuePos++;
@@ -128,12 +131,12 @@ $(document).ready(function () {
 	}
 
 	function displayResults() {
-		$("#question").empty();
+		$("#question").empty();	
 		$("#a1").html("Correct Answers: " + correct);
 		$("#a2").html("Incorrect Answers: " + incorrect);
 		$("#a3").html("Unanswered: " + unanswered);
 		$("#a4").empty();
-		$("#time-left").empty();		
+		$("#time-left").empty();	
 	}
 
 	function gameTimer() {
